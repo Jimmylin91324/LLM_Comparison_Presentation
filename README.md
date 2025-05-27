@@ -1,10 +1,10 @@
 # Semester Project - LLM Comparisons  
-**By [Your Full Name]**
+**By Jimmy Lin**
 
 ##  YouTube Video  
 [Watch here](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)
 
-## 📂 Project Description  
+## Project Description  
 This project compares four major large language models:  
 - **ChatGPT** (OpenAI)  
 - **Claude 3** (Anthropic)  
@@ -24,7 +24,7 @@ The video presentation provides a breakdown of each model's:
 - `VideoScript.txt`: Written narration for the video  
 
 
-## 📚 References  
+##References  
 - OpenAI: https://openai.com  
 - Anthropic: https://www.anthropic.com  
 - Google Gemini: https://deepmind.google  
