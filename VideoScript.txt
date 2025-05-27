@@ -31,3 +31,38 @@ Claude 3’s hallmark is Constitutional AI, where the model critiques its output
 Gemini trains on multimodal data—text, images, and YouTube videos—and uses Google’s retrieval and fact-checking systems to ground responses.
 Grok remains more opaque in its architecture; its novelty is ingesting the live X stream, giving it a real-time flavor but less formal oversight.”
 
+Slide 6: Performance Benchmarks (≈45 s)
+“Let’s look at some numbers. We compare three core benchmarks:
+MMLU (57 subjects)
+HumanEval (coding)
+GSM8K (grade-school math reasoning)
+ChatGPT-4 excels at coding and general tasks.
+Claude 3 edges out in reasoning safety.
+Gemini leverages Google’s data for solid performance.
+Grok isn’t MMLU-benchmarked publicly but shines in creative prompts.”
+
+Slide 7: “Benchmarks don’t tell the whole story—let’s see tone and style:
+Prompt: “Explain why the sky is blue to a 5th grader.”
+ChatGPT: Clear physics: blue light scatters more than red.
+Claude: A friendly ‘blue confetti’ analogy.
+Gemini: Straight-forward ‘light bouncing’ explanation.
+Grok: A playful ‘blue party in the atmosphere’ line with an emoji.
+Prompt: “Email my professor to ask for a late submission.”
+ChatGPT: Polite, formal request with apology.
+Claude: Empathetic, softly phrased extension ask.
+Gemini: Casual, concise one-or two-liner.
+Grok: Edgy and humorous, with slang and emoji.”
+
+Slide 8:
+ChatGPT uses RLHF + OpenAI Moderation API.
+Claude adds Constitutional self-checks.
+Gemini layers on SafeSearch and fact-check shields.
+Grok relies mostly on platform flags—edgier but riskier.”
+
+Slide 9:
+“So, what’s the bottom line? There’s no one-size-fits-all LLM:
+ChatGPT: Versatile—great for blogs, tutorials, and code.
+Claude: Safest—ideal when you need high‐stakes nuance (legal, medical).
+Gemini: Integrated—perfect for research workflows inside Google Docs and Sheets.
+Grok: Creative—fun for brainstorming social-media copy or rapid ideation.
+“The best model always depends on your specific task and tolerance for risk.””
