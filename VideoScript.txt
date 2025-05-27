@@ -1,0 +1,33 @@
+Slide 1:
+“Hello everyone,
+I’m Jimmy Lin, and welcome to my semester project presentation: ‘Large Language Model Showdown: ChatGPT vs Claude vs Gemini vs Grok.’
+Over the next six minutes, we’ll cover key terminology, how these models work, how they compare on benchmarks, real prompt examples, their safety approaches, and finally my recommendations for when to use each one.”
+
+Slide 2;
+“Before we dive in, let’s define a few terms you’ll see repeatedly:
+A Generative Model is any machine‐learning system that produces content—whether language, code, images, music, or video.
+A Large Language Model, or LLM, is a generative model specialized in understanding and generating human language; ‘large’ refers both to the model’s size and the scale of text it was trained on.
+The core of most modern LLMs is the Transformer architecture, introduced by Google in 2017, which uses self-attention to relate every word in a sentence to every other word.
+Finally, MMLU stands for Massive Multitask Language Understanding. It’s a benchmark spanning 57 subjects—from biology and history to law and math—testing a model’s factual knowledge, reasoning, and problem-solving skills.”
+
+Slide 3:
+“So what is an LLM in practice?
+It’s an AI system trained on massive text corpora—think of trillions of words scraped from the web, books, and code repositories.
+It relies on the transformer’s self-attention mechanism to predict the next token in a sequence.
+This simple task—predicting the next word—scales up to allow translation, summarization, question-answering, and even code generation.
+The result is a model that can produce fluent paragraphs, write functions, or carry on a conversation almost like a human.”
+
+Slide 4:
+“Here are our four contenders:
+ChatGPT, by OpenAI (launched 2022) with GPT-4 Turbo and a rich plugin ecosystem.
+Claude 3, by Anthropic (2023), built with Constitutional AI for safety and alignment.
+Gemini 1.5, by Google DeepMind (2023), tightly integrated with Search, Docs, and other Google tools.
+Grok, by xAI/Twitter (2023), trained on real-time X posts—edgy, experimental, and less filtered.”
+
+Slide 5:
+“Although all four use transformers, their training pipelines differ:
+ChatGPT-4 is pretrained on web text and code, then fine-tuned with RLHF—reinforcement learning from human feedback—to polish responses.
+Claude 3’s hallmark is Constitutional AI, where the model critiques its outputs against a written safety ‘constitution’ and learns from that feedback.
+Gemini trains on multimodal data—text, images, and YouTube videos—and uses Google’s retrieval and fact-checking systems to ground responses.
+Grok remains more opaque in its architecture; its novelty is ingesting the live X stream, giving it a real-time flavor but less formal oversight.”
+
